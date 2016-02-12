@@ -16,3 +16,57 @@
     KeyCode::ESCAPE
   </autogen>
 </item>
+
+<!-- MEDIA KEY FUNCTION REMAPPING -->
+
+<item>
+  <name>Remap RCmd + a --> f10</name>
+  <appendix>...</appendix>
+
+  <identifier>mark_rcmd_and_a_to_f10</identifier>
+
+  <autogen>
+    __KeyToKey__
+    KeyCode::A, ModifierFlag::COMMAND_R,
+    ConsumerKeyCode::VOLUME_MUTE
+  </autogen>
+</item>
+
+<item>
+  <name>Remap RCmd + s --> F8</name>
+  <appendix>...</appendix>
+
+  <identifier>mark_rcmd_and_s_to_f8</identifier>
+
+  <autogen>
+    __KeyToKey__
+    KeyCode::S, ModifierFlag::COMMAND_R,
+    ConsumerKeyCode::MUSIC_PLAY
+  </autogen>
+</item>
+
+<item>
+  <name>Remap RCmd + d --> F11</name>
+  <appendix>...</appendix>
+
+  <identifier>mark_rcmd_and_d_to_f11</identifier>
+
+  <autogen>
+    __KeyToKey__
+    KeyCode::D, ModifierFlag::COMMAND_R,
+    ConsumerKeyCode::VOLUME_DOWN
+  </autogen>
+</item>
+
+<item>
+  <name>Remap RCmd + f --> F12</name>
+  <appendix>...</appendix>
+
+  <identifier>mark_rcmd_and_f_to_f12</identifier>
+
+  <autogen>
+    __KeyToKey__
+    KeyCode::F, ModifierFlag::COMMAND_R,
+    ConsumerKeyCode::VOLUME_UP
+  </autogen>
+</item>
