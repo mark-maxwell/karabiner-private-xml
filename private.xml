@@ -70,3 +70,57 @@
     ConsumerKeyCode::VOLUME_UP
   </autogen>
 </item>
+
+<!-- CURSOR KEY REMAPPING  -->
+
+<item>
+  <name>Remap RCmd + k --> cursor left</name>
+  <appendix>...</appendix>
+
+  <identifier>mark_rcmd_and_k_to_left_cursor</identifier>
+
+  <autogen>
+    __KeyToKey__
+    KeyCode::K, ModifierFlag::COMMAND_R,
+    KeyCode::CURSOR_LEFT
+  </autogen>
+</item>
+
+<item>
+  <name>Remap RCmd + o --> cursor up</name>
+  <appendix>...</appendix>
+
+  <identifier>mark_rcmd_and_o_to_cursor_up</identifier>
+
+  <autogen>
+    __KeyToKey__
+    KeyCode::O, ModifierFlag::COMMAND_R,
+    KeyCode::CURSOR_UP
+  </autogen>
+</item>
+
+<item>
+  <name>Remap RCmd + ; --> cursor right</name>
+  <appendix>...</appendix>
+
+  <identifier>mark_rcmd_and_;_to_left_cursor</identifier>
+
+  <autogen>
+    __KeyToKey__
+    KeyCode::SEMICOLON, ModifierFlag::COMMAND_R,
+    KeyCode::CURSOR_RIGHT
+  </autogen>
+</item>
+
+<item>
+  <name>Remap RCmd + l --> cursor down</name>
+  <appendix>...</appendix>
+
+  <identifier>mark_rcmd_and_l_to_left_cursor</identifier>
+
+  <autogen>
+    __KeyToKey__
+    KeyCode::L, ModifierFlag::COMMAND_R,
+    KeyCode::CURSOR_DOWN
+  </autogen>
+</item>
