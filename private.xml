@@ -124,3 +124,18 @@
     KeyCode::CURSOR_DOWN
   </autogen>
 </item>
+
+<!-- Linux shortcuts -->
+
+<item>
+  <name>Ctrl + backspace --> word deletion</name>
+  <appendix>...</appendix>
+
+  <identifier>mark_ctrl_and_backspace_to_word_deletion</identifier>
+
+  <autogen>
+    __KeyToKey__
+    KeyCode::DELETE, ModifierFlag::CONTROL_L,
+    KeyCode::DELETE, ModifierFlag::OPTION_L
+  </autogen>
+</item>
