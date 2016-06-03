@@ -46,6 +46,32 @@
 </item>
 
 <item>
+  <name>Remap RCmd + comma(,) --> F7</name>
+  <appendix>...</appendix>
+
+  <identifier>mark_rcmd_and_comma_to_f7</indentifier>
+
+  <autogen>
+    __KeyToKey__
+    KeyCode::COMMA, ModifierFlag::COMMAND_R,
+    ConsumerKeyCode::MUSIC_PREV
+  </autogen>
+</item>
+
+<item>
+  <name>Remap RCmd + dot(.) --> F8</name>
+  <appendix>...</appendix>
+
+  <identifier>mark_rcmd_and_period_to_f8</indentifier>
+
+  <autogen>
+    __KeyToKey__
+    KeyCode::DOT, ModifierFlag::COMMAND_R,
+    ConsumerKeyCode::MUSIC_NEXT
+  </autogen>
+</item>
+
+<item>
   <name>Remap RCmd + d --> F11</name>
   <appendix>...</appendix>
 
